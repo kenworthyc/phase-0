@@ -35,3 +35,11 @@ help (or man) - provides a manual page for a command in the shell. provides a ru
 
 ## 1.4 Forking and Cloning Reflection
 
+1. To create a repository locally, you can open your shell, navigate to the directory which you'd like turn into a repository, and use the command `git init`. That directory is your new repo.
+If you want to create a repository online, on GitHub, you can log in and click the "+New Repository" button on the top right, name it, and there's your new repo (located on GitHub— not necessarily on your computer yet)!
+
+Sometimes you want to look at and play around with someone else's code or project, and to do that, you can fork their repo. This gives you a working copy of that other person's work, but it's assigned to your personal GitHub account.
+To fork a repository that's located on GitHub, you need access to GitHub. So sign in, find the repository you want to fork, then click the "Fork" button in the top right. This will send you to a page displaying your assigned copy (your "fork") of the other person's repo.
+There's one more step in order to put this fork on GitHub on your local computer— it's called 'clone'. On the right sidebar, there will be a 'clone URL'. Copy it, then open your shell, navigate to the directory you want the forked repo to be in, and then type `git clone [insert clone URL]`. The clone of the forked repo is now on your computer, and you can edit your fork of the other person's repo and update changes by using this command: `commit -m "[commit note]"`. You can push this change to GitHub by using this command: `git push`.
+
+2. The difference between git and GitHub was hard for me to grasp at first; I had some experience with GitHub, but git as local software was a new concept to me. (It's rather funny how completely accustomed I am to products and services being completely on the cloud.) It makes sense now, and answers a question I had about GitHub the first time I used it: *what if I don't want every single commit on private_project_xyz I make to be public?* Well, duh, it doesn't have to be. The rest of git - forking, cloning, branches - was familiar, although using it in the shell entailed some new vocabulary, which I'm sure I'll get to know better with usage.
