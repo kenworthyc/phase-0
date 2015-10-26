@@ -1,11 +1,3 @@
--Paste a link to your [USERNAME].github.io repository.
--Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
--Describe what open source means.
--What do you think about Open Source? Does it make you nervous or protective? Does it feel like utopia?
--Assess the importance of using licenses.
--What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?
--Did you find any resources on your own that helped you better understand a topic? If so, please list it.
-
 https://github.com/kenworthyc/kenworthyc.github.io
 
 1. To create a repo on GitHub, you'll need a GitHub account. Sign in, and on your account page, click the button that says '+New Repository.' Name it; maybe something like my-repo? And now your own repo on GitHub! Next step: clone it locally to your computer. On my-repo's webpage, there's a 'clone URL' in the bottom right; copy it. Open Terminal, which you can find by opening Spotlight [Cmd + Space] and type in 'Terminal'. In the command line, type `git clone [clone-URL]` (that's where you paste the URL you copied), and press enter. That's all! Now your repo is stored on your computer, under your User file.
