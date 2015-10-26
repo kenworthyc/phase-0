@@ -11,7 +11,7 @@ The 3 stages of a git change are best practiced on a working branch separate fro
 6.
 `git checkout -b new-branch` -- creates new branch for changes
 `git add .` --> stages all files in working directory to be committed
-`git commit -m "commit note"` --> commits all staged files with note
+`git commit -m "commit note"` --> commits all staged files with commit message
 `git push origin new-branch` --> uploads changes on branch to GitHub
 `git status` --> lists all files, staged/unstaged/untracked
 7.
