@@ -12,4 +12,8 @@ https://github.com/kenworthyc/kenworthyc.github.io
 
 One aha-moment: local repos = directories!
 
+<<<<<<< HEAD
 Not exactly this challenge, but I'm still shaky on github pull requests in the command line. Do they exist? If they do exist, are pull requests on the browser more inefficient (what with git workflow in the shell, &c)?
+=======
+Not exactly this challenge, but I'm still shaky on github pull requests in the command line. Do they exist? If they do exist, are pull requests on the browser more inefficient (what with git workflow in the shell, &c)?
+>>>>>>> 9297eeed6b7beb62914dc0f6f84a83d31cdace09
