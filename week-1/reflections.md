@@ -35,3 +35,28 @@ help (or man) - provides a manual page for a command in the shell. provides a ru
 
 ## 1.4 Forking and Cloning Reflection
 
+1. To create a repository locally, you can open your shell, navigate to the directory which you'd like turn into a repository, and use the command 'git init'. That directory is your new repo.
+If you want to create a repository online, on GitHub, you can log in and click the "+New Repository" button on the top right, name it, and there's your new repo (located on GitHub— not necessarily on your computer yet)!
+
+Sometimes you want to look at and play around with someone else's code or project, and to do that, you can fork their repo. This gives you a working copy of that other person's work, but it's assigned to your personal GitHub account.
+To fork a repository that's located on GitHub, you need access to GitHub. So sign in, find the repository you want to fork, then click the "Fork" button in the top right. This will send you to a page displaying your assigned copy (your "fork") of the other person's repo.
+There's one more step in order to put this fork on GitHub on your local computer— it's called 'clone'. On the right sidebar, there will be a 'clone URL'. Copy it, then open your shell, navigate to the directory you want the forked repo to be in, and then type 'git clone [insert clone URL]'. The clone of the forked repo is now on your computer, and you can edit your fork of the other person's repo and update changes by using this command: 'commit -m "[commit note]"'. You can push this change to GitHub by using this command: 'git push'.
+
+2. The difference between git and GitHub was hard for me to grasp at first; I had some experience with GitHub, but git as local software was a new concept to me. (It's rather funny how completely accustomed I am to products and services being completely on the cloud.) It makes sense now, and answers a question I had about GitHub the first time I used it: what if I don't want every single commit on private_project_xyz I make to be public? Well, duh, it doesn't have to be. The rest of git - forking, cloning, branches - was familiar, although using it in the shell entailed some new vocabulary, which I'm sure I'll get to know better with usage.
+
+## Bonus: Basics of the Web
+
+Browser: an application that takes all the separate text files which make up a website - text that makes up the content, files containing the site's code - and *interpret* them into a coherent whole. A browser doesn't do its work on the internet (or on the world wide web); it works on one computer to crunch all the bits and make them readable for humans.
+DNS: The Domain Name System keep track the numerous computers connected to the web both with their numbered IP address and their written domain name, so that no one has to remember all those numbers.
+Domain: a domain is an alphabetical nickname for the numbers that index a website on the internet (so that searches for it go to the right website and its neighbor with one different number). Top-level domains consist of the suffixes like .com, .net, .org, or .gov; second-level domains are the names that precede them. They're much more memorable for people than a bunch of numbers like 192.168.1.1.
+Internet: the internet is a system of computer networks interconnected by wires. The internet is like the system of roads that you'd take to drive from your house on one end of town, to your cousin's on the other end. Without the wires, no access would be possible.
+IP address: Just like needing to know your cousin's street address to find his house, a computer needs to know the IP address of another computer to successfully send it a message or request. An IP address is numbered for computer convenience, and every internet-connected device has one.
+Web app: A web app can exist on a website, but it's more complex and has multiple layers of code functioning within (written in languages like Ruby, Python, Java, &c). A web app has a program folded into it, which makes the user's experience much more dynamic and responsive to input.
+Web server: A web server is a computer that can read requests from other computers and deliver the requested information back.
+Website: A website consists of one or a few pages that are assigned a chosen domain. They're always at least coded in HTML, and sometimes with CSS or Javascript. A website is static, but can be updated if you have access and permission, like a bulletin board.
+World Wide Web: The World Wide Web is an information-sharing application built on the network of the Internet. All the devices with access to this lookup system are indirectly connected to the internet, via the World Wide Web.
+
+
+1. I learned that the internet and world wide web are different! I also learned that a web server reads requests from computers and responds to them, and is distinct from hosting.
+2. The first time I put up an HTML page, my excitement was just goofy. I felt like I'd peeled back a crucial layer of how things work-- how the internet, which had informed my life enormously, functioned. As I changed things to improve it, I felt impetuous fury when it didn't work as I expected it to; I really understand it only enough for it to still look like magic.
+3. No particular aha moments, but a better understanding of the structural backbone of the internet and the world wide web/internet divide.
