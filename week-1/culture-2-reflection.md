@@ -6,6 +6,6 @@ When I understand and can explain the internal structure of something— anythin
 
 The only way around that fear of getting left behind, not grasping the core concepts, *isn't* a way around. It's just through. Just have to work to understand it better, more thoroughly, explain it to more people, map it out, get the internal logic to gel in my mind.
 
-So I'm worried about how much of that effort I can sustain over 17 weeks. (Also: I'm worried how much my relationships with my family and loved ones may suffer from DBC's time commitment. Also-also: not exactly stoked about getting up at 6:30 every morning. Hope it's not too cold in Chicago this winter.)
+So I'm worried about how much of that effort I can sustain over 17 weeks. (Also: I'm worried how much my relationships with my family and loved ones may suffer from DBC's time commitment. Also-also: not exactly stoked about getting up at 6:30 every morning. Hope this winter in Chicago isn't the worst.)
 
 Nonetheless, I know it's a good sign that I find it all so interesting. I'm eager to submit this and start Git Real course on Code School, I swear! And I'm willing to put a lot of faith in the Chorus Frog community- if anyone can understand and empathize with my fears, it'll be you guys. Go far, go together. Good luck everyone.
