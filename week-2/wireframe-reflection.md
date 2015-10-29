@@ -1,6 +1,6 @@
-<img src="img/wireframe-index.jpg" alt="home index wireframe">
+<img src="imgs/wireframe-index.jpg" alt="home index wireframe">
 
-<img src="img/wireframe-blog-index.jpg" alt="home index wireframe">
+<img src="imgs/wireframe-blog-index.jpg" alt="home index wireframe">
 
 *What is a wireframe?*
 A wireframe is a visual mockup of the structure of a webpage. It can be on paper or in a file; it's usually in black & white; it consists of boxes which are assigned HTML elements like header, body, or footer.
