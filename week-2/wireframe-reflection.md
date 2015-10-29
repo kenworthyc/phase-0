@@ -19,7 +19,7 @@ I stuck with one or two of my first ideas, like placing the nav bar at the top, 
 
 **What questions did you ask during this challenge? What resources did you find to help you answer them?**
 
-When we're learning a generalized new concept like this, most of my questions relate more to established uses and conventions. If a professional were to sketch out 10 basic wireframes, which elements would show up in every one? If mine doesn't look like theirs, I want to at least understand the differences. Anyway, I read the articles and clicked most of the links that they listed as references to get a feel for wireframing. I particularly like the extenstion [http://www.wirify.com/](Wirify)!
+When we're learning a generalized new concept like this, most of my questions relate more to established uses and conventions. If a professional were to sketch out 10 basic wireframes, which elements would show up in every one? If mine doesn't look like theirs, I want to at least understand the differences. Anyway, I read the articles and clicked most of the links that they listed as references to get a feel for wireframing. I particularly like the extension from [http://www.wirify.com/](Wirify)!
 
 **Which parts of the challenge did you enjoy and which parts did you find tedious?**
 
