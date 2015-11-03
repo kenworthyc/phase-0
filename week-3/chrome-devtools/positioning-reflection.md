@@ -33,7 +33,7 @@ Relative and absolute positioning are by far the hardest for me to interact with
 Going from the outside to the inside:
   * Margin is the adjustable space surrounding an element, and can be widened or reduced on all four sides as much as the screen will allow.
   * Border is the rim along the edge of an element 9and can be styled to highlight it if desired).
-  * Padding is the adjustable space *within* an element, between the element's visible content and its border. For instance, a <div> with `background-color: red` and `padding-top: 1em` will display an <img> (within the <div>) with 1em of red background above it.
+  * Padding is the adjustable space *within* an element, between the element's visible content and its border. For instance, a `<div>` with `background-color: red` and `padding-top: 1em` will display an `<img>` (within the `<div>`) with 1em of red background above it.
 
 5. What was your impression of this challenge overall? (love, hate, and why?)
 I love messing around with CSS, and the progression of difficulty between each exercise was stimulating. Reacquainting myself with the quirks of positioning and CSS syntax felt good, and I feel more prepared to tackle the look of my website.
