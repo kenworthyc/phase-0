@@ -32,7 +32,7 @@ Relative and absolute positioning are by far the hardest for me to interact with
 4. What are the differences between margin, border, and padding?
 Going from the outside to the inside:
   * Margin is the adjustable space surrounding an element, and can be widened or reduced on all four sides as much as the screen will allow.
-  * Border is the rim along the edge of an element 9and can be styled to highlight it if desired).
+  * Border is the rim along the edge of an element (and can be styled to highlight it if desired).
   * Padding is the adjustable space *within* an element, between the element's visible content and its border. For instance, a `<div>` with `background-color: red` and `padding-top: 1em` will display an `<img>` (within the `<div>`) with 1em of red background above it.
 
 5. What was your impression of this challenge overall? (love, hate, and why?)
