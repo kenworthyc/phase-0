@@ -1,0 +1,98 @@
+html {
+  background-color: #FFFFFF;
+  color: #000080;
+}
+
+a:link{
+    color:#800080;
+}
+
+a:visited{
+     color:#FF0000;
+}
+
+header {
+    text-align:center;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid gray;
+}
+
+header h2{
+    text-transform:uppercase;
+    font-size:15pt;
+}
+
+header h2,h3,h4 {
+    padding:0px;
+    margin:0px;
+}
+
+h2:first-letter{
+    font-size: 24pt;
+}
+
+.links {
+
+}
+
+.links p {
+    font-size: 10pt;
+}
+
+
+.col1 {
+    float:left;
+    width: 50%;
+    padding: 10px 0px 10px 0px;
+}
+
+.col1 li{
+    padding: 10px 0px 10px 0px;
+}
+
+.col2 li{
+     padding: 10px 0px 10px 0px;
+}
+
+.col2 {
+    float:left;
+    width: 50%;
+    padding: 10px 0px 10px 0px;
+}
+
+.geico {
+    font-size:7pt;
+    clear:both;
+    text-align:center;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.legal {
+    font-size:10pt;
+    border-bottom: 1px solid gray;
+}
+
+footer p {
+    font-size: 9pt;
+}
+
+/*
+1. What is important to know when linking an external file (like a stylesheet) to an HTML file?
+The tag that relates an HTML file to another file is always positioned in the `<head>` tag, and the syntax looks like `<link rel="stylesheet" type="text/css" href="[file/path].extension">.
+
+2. What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+Using float attributes in the CSS turned out to be the only way to make the site use columns (for the links on the Berkshire Hathaway site), which wasn't what I expected. I also learned that floating doesn't work on `<ul>` elements, while it does work on `<div>` elements. Being able to string together the right element names correctly (i.e. `header h2,h3,h4`) was a lesson in being exact. My pair and I went a little over time and we hit a couple of walls, but when we managed to get over them, it felt awesome!
+
+3. What CSS did you use to modify the element style (like size, color, etc.)
+We used attributes like background-color, font-size, color, padding, margin, width, border-bottom, text-align, float, and text-transform. Huh, that's actually less than I'd have thought.
+
+4. Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+My pair and I chose to assign classes to the divs that each section of the site was wrapped in, partially to make our divs more semantic (i.e. one class we named "links" for the list of links). Since the website is so short, we didn't feel we needed ids (since their unique names call one very specific element, which may be more useful in a more complex site with more sections).
+A div with id: <div id="unique">
+Example how to call it in CSS: #unique{...}
+
+5. When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+Our HTML file is far, far more readable than BerkshireHathaway.com's, I think. All the inline styling buries the site's content; their use of a table to present the link system required far more tags than the `<ul>` tag separated into 2 divs to make a two-column list. Since we tried to make classes semantic, the CSS file on its own gives an idea of which elements are given which attributes, which makes both files more readable.
+
+*/
