@@ -33,6 +33,12 @@ better_num = fave_num.to_i + 1
 puts "Peut-être " + better_num.to_s + " ? Plus grand c'est mieux, non ?"
 puts "What about " + better_num.to_s + "? It's bigger and better!"
 
+
+# Link to 4.3.1 (address): https://github.com/kenworthyc/phase-0/blob/master/week-4/address/my_solution.rb
+
+# Link to 4.3.2 (math): https://github.com/kenworthyc/phase-0/blob/master/week-4/math/my_solution.rb
+
+
 # How do you define a local variable?
 
 # You can define a local variable by using `=`. `my_initials = "CDK"` makes a local variable whose value is a string (of three letters).
@@ -45,7 +51,7 @@ puts "What about " + better_num.to_s + "? It's bigger and better!"
 #   puts arg_1 + arg_2
 # end
 # ```
-# The parentheses are optional— Ruby will take arg_1 and arg_2 as parameters without the parentheses if you prefer. This method adds the two arguments together as an example, but you could tell the method to do anything you can think of in the body of the method (between the parameters and the `end`).
+# (Note: The parentheses are optional— Ruby will take arg_1 and arg_2 as parameters without the parentheses if you prefer.) This method adds the two arguments together as an example, but you could tell the method to do anything you can think of in the body of the method (between the parameters and the `end`).
 
 # What is the difference between a local variable and a method?
 
@@ -61,3 +67,4 @@ puts "What about " + better_num.to_s + "? It's bigger and better!"
 
 # What was confusing about this material? What made sense?
 
+# I'm still getting my head around print vs. return— the practice of it, when to use return/print/p/puts. Most of my other problems have more to do with learning what to look out for, syntactically— I was forgetting to add + signs between strings all the time. I enjoy the simplicity of applying method arguments to any tasks within the method; it took me a while to get it when we went through Codecademy, but now it seems... elegant, dare I say.
