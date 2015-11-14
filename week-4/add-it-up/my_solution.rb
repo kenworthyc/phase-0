@@ -28,8 +28,7 @@ end
 # 3. total refactored solution
 
 def total(array)
-  sum = 0
-  array.inject { |sum, n| sum + n}
+  sum = array.inject(:+)
   return sum
 end
 
