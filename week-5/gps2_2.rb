@@ -34,7 +34,7 @@ def add_item(list, item_name, qty=1)
   if list.has_key?(item_name)
     list[item_name] += qty
   else
-    list[item_name]=qty
+    list[item_name] = qty
   end
   list
 end
