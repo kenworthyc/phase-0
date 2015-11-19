@@ -9,9 +9,9 @@
 # 0. Pseudocode
 
 # What is the input?
-Positive integer
+# Positive integer
 # What is the output? (i.e. What should the code return?)
-Number as a string
+# Number as a string
 # What are the steps needed to solve the problem?
 # 1. Determine if the number needs commas
 #   a. convert number to string
