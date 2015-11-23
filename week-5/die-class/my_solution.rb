@@ -2,7 +2,7 @@
 
 # I worked on this challenge [by myself]
 
-# I spent [] hours on this challenge.
+# I spent [1.5] hours on this challenge.
 
 # 0. Pseudocode
 
@@ -13,7 +13,7 @@
 # 2. define object parameters (sides)
 #   a. define instance variable
 # 3. define object action in class (roll)
-#   a. return random number between 0 and # of sides
+#   a. return random number between 1 and # of sides
 
 
 # 1. Initial Solution
