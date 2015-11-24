@@ -65,6 +65,4 @@ What concepts were solidified when working through this challenge?
 when it can be simplified
 3. The order of defining methods is always important: Ruby can't recognize
 a called method unless it's been defined above the call
-
-
 =end
