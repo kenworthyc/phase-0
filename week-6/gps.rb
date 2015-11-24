@@ -68,7 +68,10 @@ p serving_size_calc("cookie", 10)
 p serving_size_calc("THIS IS AN ERROR", 5)
 
 #  Reflection
+<<<<<<< HEAD
 
+=======
+>>>>>>> gps-reflect
 =begin
 What did you learn about making code readable by working on this challenge?
 1. Variable names are super important; at the beginning I thought "serving_size_mod"
@@ -94,6 +97,5 @@ What concepts were solidified when working through this challenge?
 when it can be simplified
 3. The order of defining methods is always important: Ruby can't recognize
 a called method unless it's been defined above the call
-
 
 =end
