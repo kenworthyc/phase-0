@@ -25,11 +25,7 @@
     WHEN guess is lower, return symbol :low
     WHEN guess is correct, return symbol :correct AND end game
 3. Add game text
-
 =end
-
-
-
 
 # Initial Solution
 
@@ -43,6 +39,7 @@ class GuessingGame
   def solved?
     if @last_guess == :correct
       return true
+      puts "You win!"
     else
       return false
     end
@@ -53,37 +50,38 @@ class GuessingGame
 
       case
      when @answer > @last_guess
-      @last_guess = :low
+      return @last_guess = :low
+      puts "You guessed low."
 
      when @answer < @last_guess
-      @last_guess = :high
+      return @last_guess = :high
+      puts "You guessed high."
 
      when @answer == @last_guess
-      @last_guess = :correct
-      puts "You win!"
+      return @last_guess = :correct
     end
 
-  puts "You guessed #{@last_guess}."
   end
 
 end
 
 game = GuessingGame.new(55)
 
-p game.guess(78)
+puts game.guess(78)
 p game.solved?
-p game.guess(40)
+puts game.guess(40)
 p game.solved?
-p game.guess(45)
+puts game.guess(45)
 p game.solved?
 
 
 # Refactored Solution
-
-
-
-
-
+=begin
+I really don't know! I tried to condense if-statements to one line; I don't
+know how to condense case statements any further. I think there should be
+a way to copy the repeated equalities between @answer and @last_guess, but
+when I tried to run the spec with it, it doesn't pass.
+=end
 
 # Reflection
 
