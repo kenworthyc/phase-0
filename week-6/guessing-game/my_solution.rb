@@ -80,7 +80,7 @@ p game.solved?
 I really don't know! I tried to condense if-statements to one line; I don't
 know how to condense case statements any further. I think there should be
 a way to copy the repeated equalities between @answer and @last_guess, but
-when I tried to run the spec with it, it doesn't pass.
+when I tried to run the spec with my tries, it doesn't pass.
 =end
 
 # Reflection
