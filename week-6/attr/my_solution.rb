@@ -2,13 +2,19 @@
 
 # I worked on this challenge [by myself]
 
-# I spent [#] hours on this challenge.
+# I spent [.75] hours on this challenge.
 
 # Pseudocode
 
-# Input:
-# Output:
+# Input: define name
+# Output: greeting with name, dependent on defined name
 # Steps:
+# 1. create class which takes name information
+# => a. define variable for name which can be called anywhere
+# 2. create class for greeting
+# => a. call name variable as instance of name-information class
+# => b. create method which returns a greeting string with name-info slotted in
+
 
 class NameData
 
@@ -87,6 +93,5 @@ but I don't understand the overarching logic behind it. Since Ruby seems to valu
 separating local / global variables within methods, why are methods within classes
 treated differently? I can see how it'd be useful, as it allows two classes to
 interact— way more simply than two methods can interact, in fact.
-
 
 =end
