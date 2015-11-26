@@ -77,21 +77,43 @@ p game.solved?
 
 # Refactored Solution
 =begin
-I really don't know! I tried to condense if-statements to one line; I don't
-know how to condense case statements any further. I think there should be
-a way to copy the repeated equalities between @answer and @last_guess, but
+I really don't know! I tried to research the Ruby docs, but nothing came up.
+I tried to condense if-statements to one line; I don't know how to
+condense case statements any further. I think there should be a way to copy
+the repeated equalities between @answer and @last_guess, but
 when I tried to run the spec with my tries, it doesn't pass.
 =end
 
 # Reflection
 
 =begin
-How do instance variables and methods represent the characteristics and behaviors (actions) of a real-world object?
+How do instance variables and methods represent the characteristics and
+behaviors (actions) of a real-world object?
+If we had an object like a water pistol, for example, instance variables would be its adjectives (color, size), and methods would be its verbs (point, shoot water).
+Instance variables allow classes to adopt certain traits and make that information
+available to the entire class; methods perform actions according to that information.
 
 When should you use instance variables? What do they do for you?
+Instance variables are available for the whole class to access when they're
+defined. This is useful and borderline necessary for a class, so its
+attributes can interact and interplay based on the input.
 
-Explain how to use flow control. Did you have any trouble using it in this challenge? If so, what did you struggle with?
+Explain how to use flow control. Did you have any trouble using
+it in this challenge? If so, what did you struggle with?
 
-Why do you think this code requires you to return symbols? What are the benefits of using symbols?
+Utilizing flow control is the manipulation of conditions in a program. To create different reactions for the program depending upon the input, the programmer can
+use IF...ELSE, UNLESS, UNTIL statements to return different reactions in an
+either/or scenario; if there are more than two options, CASE...WHEN statements
+respond to multiple possibilities (slightly more purposefully than ELSIFs).
+I didn't have any trouble with flow control; defining the order of methods and
+variables was more challenging for me.
+
+Why do you think this code requires you to return symbols? What
+are the benefits of using symbols?
+
+I can't say for sure, but I think symbols are useful here because the symbol
+acts sort of like an instance variable, in that you can check if a variable has
+*exactly* the same assignment (high, low, or correct in this case), not just
+an equivalent string. Symbols are also evaluate faster than strings.
 
 =end
