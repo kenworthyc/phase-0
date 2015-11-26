@@ -68,10 +68,25 @@ certain information).
 Release_5.rb file:
 
 What is a reader method?
+A reader method returns the value of a given variable, usually an instance variable
+in the case of classes.
 What is a writer method?
+A writer method reassigns the value of a variable (usually instance variable when
+dealing with classes).
 What do the attr methods do for you?
+attr methods lessen the amount of explicit methods I need to code in order
+to quickly change certain variables in a class. They exist as read-only, write-only,
+or both (accessor), which can help limit problematic changes (within the code) or
+security concerns.
 Should you always use an accessor to cover your bases? Why or why not?
-What is confusing to you about these methods
+See above— not always the best idea since certain variables being overwrite-able
+could potentially wreck code (in an IF-ELSE statement you have, for instance).
+What is confusing to you about these methods?
+I get the mechanics of being within one class and calling a method from another,
+but I don't understand the overarching logic behind it. Since Ruby seems to value
+separating local / global variables within methods, why are methods within classes
+treated differently? I can see how it'd be useful, as it allows two classes to
+interact— way more simply than two methods can interact, in fact.
 
 
 =end
