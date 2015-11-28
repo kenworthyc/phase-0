@@ -168,4 +168,6 @@ I think the best refactoring I did involved renaming and condensing variables.
 My initial solution strung commands together to get the right return, but
 refactoring for readability made me think about making each line of code more
 intuitive to a reader, so I created variables to that end.
+(I learned about the ternary operator, but it didn't seem to play nicely with my
+@announce variable.)
 =end
