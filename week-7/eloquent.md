@@ -5,7 +5,7 @@ I found it hilarious that JavaScript's name was hanging on the coattails of Java
 
 Are there any concepts you feel uncomfortable with?
 
-I was totally caught off guard by the program broken into binary. I just can't imagine trying to manage information that way. It makes my sense of the state of flow seem totally unreachable. I'm lucky not to have to program like that.
+I was totally caught off guard by the program broken into binary. I just can't imagine trying to manage information that way. It makes the state of flow seem totally unreachable. I'm lucky not to have to program like that.
 
 CHAPTER 1 //
 
@@ -17,21 +17,48 @@ JavaScript has more categories for mathematical possibilities than Ruby; it has 
 
 Both JS and Ruby have some neat abilities with escape characters in strings; its escape characters include \n for newlines as well as \t for tabs, which I learned about for the first time.
 
-In JS, 'null' and 'undefined' seem to be more widely applied versions of Ruby's 'nil'. They're all values which carry no information.
+In JS, 'null' and 'undefined' seem to be more widely applied versions of Ruby's 'nil'. They're all values which carry no information (and 'null' is sort of just a duplicate of 'undefined', and it was a slight accident in the language architecture).
 
 CHAPTER 2 //
 
 What is an expression?
+A bit of code (in a language such as JS) which produces a value.
+
 What is the purpose of semicolons in JavaScript? Are they always required?
+Semicolons are required to define JS statements, but not expressions— expressions are just things, but statements take things and affect them. Sometimes semicolons aren't required, but it's sort of a hazy and complex requirement. If you don't have a semicolon, sometimes the following line will be evaluated as part of the same statement.Better safe than sorry!
+
 What causes a variable to return undefined?
+Declaring a variable and not assigning a value to it will make it return undefined
+
 Write your own variable and do something to it in the eloquent.js file.
+
 What does console.log do and when would you use it? What Ruby method(s) is this similar to?
-Write a short program that asks for a user to input their favorite food. After they hit return, have the program respond with "Hey! That's my favorite too!" (You will probably need to run this in the Chrome console (Links to an external site.) rather than node since node does not support prompt or alert). Paste your program into the eloquent.js file.
-Describe while and for loops
+console.log returns the result of a statement or a variable to the screen. It's like Ruby's print or puts!
+
+Describe while and for loops.
+While loops accept a condition, and will perform the action in their curly braces (in the 'block') as long as that condition is true. Often the condition will be a counter that is updated every time the loop repeats.
+For loops act almost exactly similar to the while loop with a more compact syntax. An english translation might be 'for (this_var; if this_var == true for this condition; do this)'.
+
 What other similarities or differences between Ruby and JavaScript did you notice in this section?
+For loops seem to be much more usable/efficient in JS than in Ruby. JS also seems a bit more punctuated, syntactical; parentheses and semicolons are not optional in JS where they are in Ruby.
+In both, variables need values! Or else undefined, nothing, nada.
+
 Complete at least one of the exercises (Looping a Triangle, FizzBuzz, of Chess Board) in the eloquent.js file.
 
 CHAPTER 3 //
+What are the differences between local and global variables in JavaScript?
+
+When should you use functions?
+
+What is a function declaration?
+
+Complete the minimum exercise in the eloquent.js file.
 
 CHAPTER 4 //
+Skip the sections on the Lycanthrope's log, Computing Correlations, and sections from Further Arrayology to the Global Object, but read the chapter summary.
 
+What is the difference between using a dot and a bracket to look up a property? Ex. array.max vs array["max"]
+
+Create an object called me that stores your name, age, three favorite foods, and a quirk in your eloquent.js file.
+
+What is a JavaScript object with a name and value property similar to in Ruby?
