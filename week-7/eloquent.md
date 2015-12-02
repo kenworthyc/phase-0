@@ -1,7 +1,7 @@
 INTRO //
 Did you learn anything new about JavaScript or programming in general?
 
-I found it hilarious that JavaScript's name was hanging on the coattails of Java. The history of Javascript and new releases and versions was interesting. I understood all the useful compressions that programming languages do for programmers, and like the idea behind it— that languages do the boring things so programmers can get to the interesting ones.
+I found it hilarious that JavaScript's name was hanging on the coattails of Java. The history of Javascript and new releases and versions was interesting. I understood all the useful compressions that programming languages do for programmers, and like the idea behind it— that languages do the boring tasks so programmers can get to the interesting ones.
 
 Are there any concepts you feel uncomfortable with?
 
@@ -41,24 +41,24 @@ For loops act almost exactly similar to the while loop with a more compact synta
 
 What other similarities or differences between Ruby and JavaScript did you notice in this section?
 For loops seem to be much more usable/efficient in JS than in Ruby. JS also seems a bit more punctuated, syntactical; parentheses and semicolons are not optional in JS where they are in Ruby.
-In both, variables need values! Or else undefined, nothing, nada.
+In both, variables need values! Otherwise they're undefined, nothing, nada.
 
-Complete at least one of the exercises (Looping a Triangle, FizzBuzz, of Chess Board) in the eloquent.js file.
 
 CHAPTER 3 //
 What are the differences between local and global variables in JavaScript?
+Variables created inside functions are local to those functions, while variables created outside any function (global variables) are accessible by any function in the program. However, local variables will 'override' global variables if the names are shared; the specificity of local variables takes precedence over global variables inside a function.
 
 When should you use functions?
+Probably very often! Functions are similar to methods in Ruby, and they're what allow the programmer to give the computer concrete instructions to perform actions. They take arguments and have the ability to manipulate those arguments according to the instructions the programmer gives. That means— whenever there's a process that has to be repeated, you may as well let the computer take the work and make a function for it.
 
 What is a function declaration?
+Function declarations are a 'direct' form of creating functions. They are not assigned to a variable within a program, and this distinction means that function declarations are loaded as soon as the program is run. Declared functions can be called before their actual code in the program. (Functions which are assigned to variables, called function expressions or function values, are evaluated in the order it is called in the program.)
 
-Complete the minimum exercise in the eloquent.js file.
 
 CHAPTER 4 //
-Skip the sections on the Lycanthrope's log, Computing Correlations, and sections from Further Arrayology to the Global Object, but read the chapter summary.
 
 What is the difference between using a dot and a bracket to look up a property? Ex. array.max vs array["max"]
-
-Create an object called me that stores your name, age, three favorite foods, and a quirk in your eloquent.js file.
+array.max directly accesses the property specifically named 'max' for array. array[max] thinks: 'what's in between these brackets?', does some calculation, and comes up with 'max'. array[max] could be expressed as array['m'+'a'+'x'], but this wouldn't work if you tried array.'m'+'a'+'x'. If a property is a string, you must use brackets, because the dot operator can only call on valid variable names, which don't include strings.
 
 What is a JavaScript object with a name and value property similar to in Ruby?
+Array.length is an object/property with an exactly similar object/property in Ruby.
