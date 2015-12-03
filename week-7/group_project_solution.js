@@ -1,6 +1,3 @@
-// As a user
-// I want to create a sum, median, and mode function that returns the correct value
-// So that I don’t have to do it manually
 // Pseudocode User1
   /*
       INPUT: list of numbers
@@ -36,9 +33,6 @@
 
   */
 
-// As a user
-// I want to have a function that returns an error message when an invalid test is passed
-// So that the user knows why the function did not execute properly
 // Pseudocode User2
   /*
       INPUT: invalid test
@@ -55,9 +49,6 @@
 
   */
 
-// As a user
-// I want to have a function that returns the sum
-// So that I can easily calculate the total value of all the numbers in a odd or even number list
 // Pseudocode User3
   /*
       INPUT: list of numbers
@@ -73,9 +64,6 @@
 
   */
 
-// As a user
-// I want to have a function that returns the mean
-// So that I can easily calculate the average of all the numbers in a odd or even number list
 // Pseudocode User4
   /*
       INPUT: list of numbers
@@ -90,9 +78,6 @@
 
   */
 
-// As a user
-// I want to have a function that returns the median
-// So that I can easily calculate the middle value of all the numbers in a odd or even number list
 // Pseudocode User5
   /*
       INPUT: list of numbers
@@ -122,5 +107,4 @@
               e. assign return value of function to median_even_or_odd variable
           END
       4. return median_even_or_odd
-
   */
