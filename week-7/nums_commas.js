@@ -52,30 +52,30 @@ Steps
 
 // Refactored Solution
 
-function separateComma(number) {
-  var num_str = (""+number).split("");
-  var str_len = num_str.length;
-  var new_str = [];
-  while (Math.ceil(str_len/3)>0) {
-      for (i = 0; i < 3; i++) {
-          new_str.push(num_str.pop());
-        }
-    if(str_len/3>1) {
-      new_str.push(",");
-    }
-    str_len -= 3;
-  }
-  for (var i = 0; i < str_len; i++) {
-    new_str.push(num_str.pop());
-  }
+// function separateComma(number) {
+//   var num_str = (""+number).split("");
+//   var str_len = num_str.length;
+//   var new_str = [];
+//   while (Math.ceil(str_len/3)>0) {
+//       for (i = 0; i < 3; i++) {
+//           new_str.push(num_str.pop());
+//         }
+//     if(str_len/3>1) {
+//       new_str.push(",");
+//     }
+//     str_len -= 3;
+//   }
+//   for (var i = 0; i < str_len; i++) {
+//     new_str.push(num_str.pop());
+//   }
 
-  var final_str = new_str.reverse().join('');
-  return final_str;
-}
+//   var final_str = new_str.reverse().join('');
+//   return final_str;
+// }
 
-console.log(separateComma(433334890));
+// console.log(separateComma(433334890));
 
-/*
+
 //This is a refactor using slice-unshift rather than push-pop,
 //but I was unsuccessful in converting nested arrays to strings using
 //.join(); I must be using iterators to access nested arrays incorrectly.
@@ -98,21 +98,22 @@ function separateComma(number) {
         end_index -= 3;
     }
 
-
   console.log(new_arr);
 
   var str_arr = [];
 
   for (i of new_arr) {
-    console.log(i);
-    // new_arr = new_arr[i][i].join('');
+    new_arr1 = new_arr[i];
+      for (i of new_arr1) {
+        new_arr = new_arr[i].join('');
+      }
   }
    return new_arr
 
 }
 console.log(separateComma(4333477677890));
 
-*/
+
 
 // Your Own Tests (OPTIONAL)
 
