@@ -44,6 +44,8 @@ OUPUT: points
      THEN add 5 points to p1's profile
      ELSE add 7 points to CPU's profile
 8. create method to check if there's a winner
+    IF p1 or p2 have more than 35 points
+    THEN end game
 
 */
 
@@ -244,25 +246,22 @@ var playerNums = [bigNum(), bigNum(), smallNum(), smallNum(), smallNum(), smallN
 
 function answer(equation) {
 
-  function addPoints() {
-        if (equation === targetNum) {
-          console.log("Absolutely excellent! 10 points!");
-          player_1.points += 10;
-        } else if (targetRange.includes(equation)) {
-          console.log("Good one, you're in the range! 5 points!");
-          player_1.points += 5;
-        } else {
-          player_2.points += 7;
-          console.log("Yikes, your opponent gets 7 points.");
-        }
-    while (checkWinner(); == false) {
-      turn();
+    function addPoints() {
+          if (equation === targetNum) {
+            console.log("Absolutely excellent! 10 points!");
+            player_1.points += 10;
+          } else if (targetRange.includes(equation)) {
+            console.log("Good one, you're in the range! 5 points!");
+            player_1.points += 5;
+          } else {
+            player_2.points += 7;
+            console.log("Yikes, your opponent gets 7 points.");
+          }
+      while (checkWinner(); == false) {
+        turn();
+      }
     }
-
-  }
-
-return addPoints();
-
+  return addPoints();
 }
 
 
