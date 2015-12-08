@@ -1,8 +1,8 @@
 **One-to-one Schema**
-!(Laptop database schema)[imgs/one-to-one.png]
+![Laptop database schema](imgs/one-to-one.png)
 
 **Many-to-many Schema**
-!(Grocery list schema)[imgs/many-to-many.png]
+![Grocery list schema](imgs/many-to-many.png)
 
 **What is a one-to-one database?**
 
