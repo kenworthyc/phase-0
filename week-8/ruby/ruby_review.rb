@@ -54,7 +54,7 @@
 #         break
 #       end
 #     end
-#     if not found_match  # What is this looking for? --numbers and punctuation not in the 'space' list
+#     if not found_match  # What is this looking for? --numbers and punctuation NOT in the 'space' list
 #       decoded_sentence << x
 #     end
 #   end
@@ -103,8 +103,6 @@
     cipher_alphabet = ('a'..'z').to_a.rotate(shift_num)
     return cipher_alphabet
   end
-
-
 
   def letter_convertor(coded_msg, cipher_alphabet)
     decoded_msg = []
