@@ -287,3 +287,26 @@ I'm planning on going through more of the Ruby Reviews module, and reviewing the
 book. I never completed the Codecademy Ruby course as well, so I'll work on that.
 
 =end
+
+# Reverse Words
+
+
+# I worked on this challenge [by myself, with: ].
+# This challenge took me [#] hours.
+
+# Pseudocode
+
+
+
+# Initial Solution
+
+
+
+
+# Refactored Solution
+
+
+
+
+
+# Reflection
