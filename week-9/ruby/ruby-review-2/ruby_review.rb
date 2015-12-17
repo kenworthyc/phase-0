@@ -1,7 +1,7 @@
 # Drawer Debugger
 
 # I worked on this challenge [with Phil Thomas].
-# I spent [#] hours on this challenge.
+# I spent [.75] hours on this challenge.
 
 # Original Code
 
